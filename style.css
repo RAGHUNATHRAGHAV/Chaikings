@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Poppins"
+}
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+.head{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.head-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.head-wrapper>div{
+   display: flex;
+   gap: 25px;
+}
+.head-wrapper>div>a{
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+}
+.banner{
+    padding-top: 85px;
+}
+.banner-wrapper{
+    background-image:url(./TBan\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    padding: 0 15px;
+}
+.banner-wrapper>h1{
+    padding-bottom: 10px;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.banner-wrapper>p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.tea-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.tea-wrapper>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:
+}
+.tea-wrapper>div>div{
+    width:50%;
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(1){
+    order: 2;
+}
+
+.tea-wrapper>div:nth-child(1)>div:nth-child(1){
+  width: 30%;
+
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2){
+    text-align: center;
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2)>h1{
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2)>p{
+    font-weight: 200;
+}
+.tea-wrapper>div:nth-child(2)>div:nth-child(2)>h1{
+    font-weight: 300;
+}
+.tea-wrapper>div:nth-child(2)>div:nth-child(2)>p{
+    font-weight: 100;
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2)>h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.tea-wrapper>div:nth-child(2)>div:nth-child(2){
+    text-align: center;
+}
+.tea-wrapper>div:nth-child(2)>div:nth-child(2)>h1>span{
+    display: block;
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2)>p{
+    text-align: right;
+    
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2)>p>span{
+    display: block;
+}
+.tea-wrapper>div:nth-child(1)>div:nth-child(2)>h3>span{
+    display: block;
+}
+.tea-wrapper>div:nth-child(2)>div:nth-child(1){
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .banner-wrapper>h1{
+        font-size: 40px;
+    }
+    .head-wrapper>div{
+        display: none;
+    }
+    .head-wrapper{
+       justify-content: center;
+    }
+    /* .tea-wrapper>div:nth-child(1){
+        flex-direction: column;
+    }
+    .tea-wrapper>div:nth-child(2){
+        flex-direction: column;
+        justify-content: center;
+ 
+        padding: 0 15px;
+        width: 100%;
+
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2){
+        order: 1;
+    }
+    .tea-wrapper>div:nth-child(1){
+        width: 100%;
+        justify-content: center;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(1){
+        width: 50%;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2){
+        width: 50%;
+    }
+    .tea-wrapper>div:nth-child(2){
+        width: 100%;
+    }
+    .tea-wrapper>div:nth-child(2)>div:nth-child(1){
+        width: 100%;
+    }
+    .tea-wrapper>div:nth-child(2)>div:nth-child(2){
+        width: 100%;
+    } */
+    .tea-wrapper>div:nth-child(2)>div:nth-child(2)>h1>span{
+        display: inline-block;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>p>span{
+        display: inline-block;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>h3>span{
+        display: inline-block;
+    }
+ 
+    .tea-wrapper>div{
+        flex-direction: column;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(1){
+        order: -1;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>p{
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>p>span:nth-child(2){
+        display: none;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>p>span:nth-child(3){
+        display: none;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>p>span:nth-child(4){
+        display: none;
+    }
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2)>p>span{
+        display: inline-block;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1066px){
+    .tea-wrapper>div:nth-child(1)>div:nth-child(2){
+        width:55%;
+    } 
+}
