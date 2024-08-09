@@ -150,6 +150,17 @@ body{
 .foot-wrapper>div:nth-child(2)>p{
     margin-bottom: 5px;
 }
+.copy{
+    text-align: center;
+}
+.copy>h1{
+   color: rgb(88, 86, 86); 
+   font-weight: 300;
+   font-size: 20px;
+}
+.copy>h1>span{
+    color: #449658;
+}
 
 
 
