@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family:"Poppins"
+    font-family:'poppins'
 }
 
 .container{
@@ -26,10 +26,15 @@ body{
 .head-wrapper>div{
    display: flex;
    gap: 25px;
+   
 }
 .head-wrapper>div>a{
     color: rgb(109, 109, 109);
     text-decoration: none;
+}
+.head-wrapper>div>a:hover{
+    color: #449658;
+    text-decoration: underline;
 }
 .banner{
     padding-top: 85px;

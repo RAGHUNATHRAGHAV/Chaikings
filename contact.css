@@ -1,0 +1,39 @@
+.ban{
+    background-image: url("./C\ B\ img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.ban-wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 100px;
+}   
+.ban-wrapper>span{
+    color: white;
+    font-size: 100px;
+    padding-top: 35px;
+}
+@media screen and (max-width:1000px){
+  
+    .ban-wrapper>span{
+       font-size: 80px;
+       align-items: center;
+       
+}       
+} 
+@media screen and (max-width:550px){
+    .ban-wrapper>span{
+        font-size: 60px;
+        
+} 
+}
+@media screen and (max-width:380px){
+    .ban-wrapper>span{
+        font-size: 35px;
+        
+}
+}
+  
